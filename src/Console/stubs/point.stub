@@ -1,0 +1,22 @@
+<?php
+
+namespace DummyNamespace;
+
+use Ansezz\Gamify\BasePoint;
+
+class DummyClass extends BasePoint
+{
+
+    /**
+     * check if user achieve the point
+     * @param $point
+     * @param $subject
+     *
+     * @return bool
+     */
+    public function __invoke($point, $subject)
+    {
+        return true;
+    }
+
+}
